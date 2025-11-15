@@ -1,3 +1,5 @@
 import "./styles.css";
+import "./home";
+import { buildHome } from "./home";
 
-console.log('test');
+buildHome();
