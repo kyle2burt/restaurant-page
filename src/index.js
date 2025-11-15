@@ -2,6 +2,7 @@ import "./styles.css";
 import "./home";
 import { buildHome } from "./home";
 import { buildMenu } from "./menu";
+import { buildAbout } from "./about";
 
 buildHome();
 
@@ -20,6 +21,7 @@ nav.addEventListener('click', (event) => {
 
         case ('about'):
             clearContent();
+            buildAbout();
             break;
 
         default:
